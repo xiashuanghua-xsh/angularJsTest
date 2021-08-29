@@ -85,7 +85,7 @@ public class ZipUtils {
     /**
      * @param inputFile        压缩源文件
      * @param zos              压缩文件输出流
-     * @param fileName         压缩文件名称
+     * @param path             压缩文件名称或者文件夹名称
      * @param keepDirStructure 是否保留原来的目录结构,true:保留目录结构;
      *                         false:所有文件跑到压缩包根目录下(注意：不保留目录结构可能会出现同名文件,会压缩失败)
      * @throws IOException 异常
